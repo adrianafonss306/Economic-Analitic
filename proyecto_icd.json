@@ -1,0 +1,256 @@
+
+{
+    "mipymes": [
+            {
+                "store": { "name": "El Mercado de Julita",
+            "location": { 
+                "lat": "",
+                "long":""
+                },
+            "products":[
+                {
+                    "id": 1 ,
+                    "name":"cafe",
+                    "amount": "",
+                    "price":26.13                    
+                },
+
+                {
+                    "id": 2 ,
+                    "name":"arroz",
+                    "amount": "",
+                    "price":16.45                    
+                },
+
+                {
+                    "id": 3 ,
+                    "name":"azucar",
+                    "amount": "",
+                    "price":56.2                    
+                },
+
+                {
+                    "id": 4 ,
+                    "name":"sal",
+                    "amount": "",
+                    "price":65.2                    
+                },
+
+                {
+                    "id": 5 ,
+                    "name":"pastas",
+                    "amount": "",
+                    "price":6.36                    
+                },
+
+                {
+                    "id": 6 ,
+                    "name":"picadillo",
+                    "amount": "",
+                    "price":14.36                    
+                },
+
+                {
+                    "id": 7 ,
+                    "name":"jabon",
+                    "amount": "",
+                    "price":42.32                    
+                },
+
+                {
+                    "id": 8 ,
+                    "name":"detergente",
+                    "amount": "",
+                    "price":9.15                    
+                },
+
+                {
+                    "id": 9 ,
+                    "name":"papel higienico",
+                    "amount": "",
+                    "price":19.36                    
+                },
+
+                {
+                    "id": 10 ,
+                    "name":"salchicas",
+                    "amount": "",
+                    "price":35.46                    
+                }
+                
+            ]
+            
+        
+        
+    }
+},
+
+{
+    "store": { "name": "El Mercado de Marcolina",
+            "location": { 
+                "lat": "",
+                "long":""
+                },
+            "products":[
+                {
+                    "id": 1 ,
+                    "name":"cafe",
+                    "amount": "",
+                    "price":56.32                    
+                },
+
+                {
+                    "id": 2 ,
+                    "name":"arroz",
+                    "amount": "",
+                    "price":18.65                    
+                },
+
+                {
+                    "id": 3 ,
+                    "name":"azucar",
+                    "amount": "",
+                    "price":15.23                    
+                },
+
+                {
+                    "id": 4 ,
+                    "name":"sal",
+                    "amount": "",
+                    "price":11.99                    
+                },
+
+                {
+                    "id": 5 ,
+                    "name":"pastas",
+                    "amount": "",
+                    "price":17.55                    
+                },
+
+                {
+                    "id": 6 ,
+                    "name":"picadillo",
+                    "amount": "",
+                    "price":68.35                    
+                },
+
+                {
+                    "id": 7 ,
+                    "name":"jabon",
+                    "amount": "",
+                    "price":18.52                    
+                },
+
+                {
+                    "id": 8 ,
+                    "name":"detergente",
+                    "amount": "",
+                    "price":26.45                    
+                },
+
+                {
+                    "id": 9 ,
+                    "name":"papel higienico",
+                    "amount": "",
+                    "price":78.25                    
+                },
+
+                {
+                    "id": 10 ,
+                    "name":"salchicas",
+                    "amount": "",
+                    "price":16.45                    
+                }
+                
+            ]
+            
+        
+        
+    }
+},
+
+{
+    "store": { "name": "El Mercado de la abuela",
+            "location": { 
+                "lat": "",
+                "long":""
+                },
+            "products":[
+                {
+                    "id": 1 ,
+                    "name":"cafe",
+                    "amount": "",
+                    "price":32.16                    
+                },
+
+                {
+                    "id": 2 ,
+                    "name":"arroz",
+                    "amount": "",
+                    "price":45.21                    
+                },
+
+                {
+                    "id": 3 ,
+                    "name":"azucar",
+                    "amount": "",
+                    "price":16.78                    
+                },
+
+                {
+                    "id": 4 ,
+                    "name":"sal",
+                    "amount": "",
+                    "price":13.69                    
+                },
+
+                {
+                    "id": 5 ,
+                    "name":"pastas",
+                    "amount": "",
+                    "price":34.16                    
+                },
+
+                {
+                    "id": 6 ,
+                    "name":"picadillo",
+                    "amount": "",
+                    "price":13.58                    
+                },
+
+                {
+                    "id": 7 ,
+                    "name":"jabon",
+                    "amount": "",
+                    "price":36.47                    
+                },
+
+                {
+                    "id": 8 ,
+                    "name":"detergente",
+                    "amount": "",
+                    "price":16.78                    
+                },
+
+                {
+                    "id": 9 ,
+                    "name":"papel higienico",
+                    "amount": "",
+                    "price":35.22                    
+                },
+
+                {
+                    "id": 10 ,
+                    "name":"salchicas",
+                    "amount": "",
+                    "price":11.87                    
+                }
+                
+            ]
+            
+        
+        
+    }
+}
+    ]
+}
