@@ -1,256 +1,473 @@
-
-{
-    "mipymes": [
-            {
-                "store": { "name": "El Mercado de Julita",
+{ 
+    "mipymes" : [
+        {
+            "store": { "name": "Mercado Astro Rey",
+            
             "location": { 
-                "lat": "",
-                "long":""
-                },
+                        "lat": "",
+                        "long":""},
             "products":[
                 {
-                    "id": 1 ,
-                    "name":"cafe",
-                    "amount": "",
-                    "price":26.13                    
-                },
+                    "groceries":{
+                        
+                        "cafe":[
+                            
+                            {"brand": "Isla Grande",
+                            "amount": "250g",
+                            "price": 1500},
 
-                {
-                    "id": 2 ,
-                    "name":"arroz",
-                    "amount": "",
-                    "price":16.45                    
-                },
+                            {"brand": "McDaniels",
+                            "amount": "454g",
+                            "price": 1800}
+                            ],
+                        
+                        "arroz":[
+                            
+                            {"brand": "Energy",
+                            "amount": "1kg",
+                            "price": 600}
+                            ],
+                        
+                        "pastas":[
+                            
+                            {"brand": "Rosso",
+                            "type": "coditos",
+                            "amount": "",
+                            "price": 350},
+                            
+                            {"brand": "Bodrum",
+                            "type": "coditos",
+                            "amount": "",
+                            "price": 350},
 
-                {
-                    "id": 3 ,
-                    "name":"azucar",
-                    "amount": "",
-                    "price":56.2                    
-                },
+                            {"brand": "Rosso",
+                            "type": "spaguetti",
+                            "amount": "",
+                            "price": 350}
+                        ],
 
-                {
-                    "id": 4 ,
-                    "name":"sal",
-                    "amount": "",
-                    "price":65.2                    
-                },
+                        "pure de tomate":[
+                            
+                            {"brand": "Tukas",
+                            "amount": "410g",
+                            "price":500}
+                        ],
 
-                {
-                    "id": 5 ,
-                    "name":"pastas",
-                    "amount": "",
-                    "price":6.36                    
-                },
+                        "sal":[
 
-                {
-                    "id": 6 ,
-                    "name":"picadillo",
-                    "amount": "",
-                    "price":14.36                    
-                },
+                            {"brand": "Clic",
+                            "amount": "",
+                            "price": 220}
+                        ],
 
-                {
-                    "id": 7 ,
-                    "name":"jabon",
-                    "amount": "",
-                    "price":42.32                    
-                },
+                        "azucar":[
 
-                {
-                    "id": 8 ,
-                    "name":"detergente",
-                    "amount": "",
-                    "price":9.15                    
-                },
+                            {"brand": "Caioba",
+                            "amount": "",
+                            "price": 650}
+                        ],
 
-                {
-                    "id": 9 ,
-                    "name":"papel higienico",
-                    "amount": "",
-                    "price":19.36                    
-                },
+                        "salchichas":[
 
-                {
-                    "id": 10 ,
-                    "name":"salchicas",
-                    "amount": "",
-                    "price":35.46                    
+                            {"brand": "",
+                            "amount": "340g",
+                            "price": 390},
+
+                            {"brand": "",
+                            "amount": "3kg",
+                            "price": 3000}
+                        ]
+
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            
+                            {"type": "tocador",
+                            "brand": "Elsa",
+                            "amount": "90g",
+                            "price": 160},
+
+                            {"type": "tocador",
+                            "brand": "Nt",
+                            "amount": "90g",
+                            "price": 160},
+                            
+                            {"type": "lavar",
+                            "brand": "Reebay",
+                            "amount": "150g",
+                            "price": 230}
+                        ],
+                        
+                        "papel sanitario":[
+                            
+                            {"brand": "La Excelencia",
+                            "amount": "",
+                            "price": 640}
+                        ],
+
+                        "toallitas humedas":[
+
+                            {"brand": "Dex",
+                            "amount": "",
+                            "price": 550}
+                        ],
+
+                        "detergente":[
+                            
+                            {"type": "liquido",
+                            "brand": "Kapital",
+                            "amount": "750ml",
+                            "price": 750},
+
+                            {"type": "polvo",
+                            "brand": "Eco Breeze",
+                            "amount": "900g",
+                            "price": 620}
+                        ],
+
+                        "desodorante":[
+
+                            {"brand": "Queray",
+                            "amount": "",
+                            "price": 850}
+                        ],
+
+                        "pasta dental":[
+
+                            {"brand": "Deemah",
+                            "amount": "100g",
+                            "price": 450}
+                        ],
+
+                        "shampoo":[
+
+                            {"brand": "Nt",
+                            "amount": "500ml",
+                            "price": 1200}
+                        ],
+
+                        "acondicionador":[
+
+                            {"brand": "Nt",
+                            "amount": "500ml",
+                            "price": 1200},
+
+                            {"brand": "Nt",
+                            "amount": "300ml",
+                            "price": 850}
+                        ],
+
+                        "crema corporal":[
+
+                            {"brand": "American Touch",
+                            "amount": "525ml",
+                            "price": 900}
+                        ]
+                    }
                 }
-                
-            ]
-            
-        
-        
-    }
-},
+            ]          
+        }
+    },
 
-{
-    "store": { "name": "El Mercado de Marcolina",
+    {
+            "store": { "name": "Marilu Mercadito",
+            
             "location": { 
-                "lat": "",
-                "long":""
-                },
+                        "lat": "",
+                        "long":""},
             "products":[
                 {
-                    "id": 1 ,
-                    "name":"cafe",
-                    "amount": "",
-                    "price":56.32                    
-                },
+                    "groceries":{
+                        
+                        "cafe":[
+                            
+                            {"brand": "Isla Grande",
+                            "amount": "250g",
+                            "price": 1650},
 
-                {
-                    "id": 2 ,
-                    "name":"arroz",
-                    "amount": "",
-                    "price":18.65                    
-                },
+                            {"brand": "Roche",
+                            "amount": "",
+                            "price": 890}
+                            ],
+                        
+                        "arroz":[
+                            
+                            {"brand": "Rainha",
+                            "amount": "",
+                            "price": 750}
+                            ],
+                        
+                        "pastas":[
+                            
+                            {"brand": "Siddo",
+                            "type": "coditos",
+                            "amount": "",
+                            "price": 400},
+                            
+                            {"brand": "Siddo",
+                            "type": "tornillos?",
+                            "amount": "",
+                            "price": 400},
 
-                {
-                    "id": 3 ,
-                    "name":"azucar",
-                    "amount": "",
-                    "price":15.23                    
-                },
+                            {"brand": "",
+                            "type": "spaguetti",
+                            "amount": "",
+                            "price": 350}
+                        ],
 
-                {
-                    "id": 4 ,
-                    "name":"sal",
-                    "amount": "",
-                    "price":11.99                    
-                },
+                        "pure de tomate":[
+                            
+                            {"brand": "Yumato",
+                            "amount": "",
+                            "price":480}
+                        ],
 
-                {
-                    "id": 5 ,
-                    "name":"pastas",
-                    "amount": "",
-                    "price":17.55                    
-                },
+                        "sal":[
 
-                {
-                    "id": 6 ,
-                    "name":"picadillo",
-                    "amount": "",
-                    "price":68.35                    
-                },
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
 
-                {
-                    "id": 7 ,
-                    "name":"jabon",
-                    "amount": "",
-                    "price":18.52                    
-                },
+                        "azucar":[
 
-                {
-                    "id": 8 ,
-                    "name":"detergente",
-                    "amount": "",
-                    "price":26.45                    
-                },
+                            {"brand": "Don Juan",
+                            "amount": "",
+                            "price": 700}
+                        ],
 
-                {
-                    "id": 9 ,
-                    "name":"papel higienico",
-                    "amount": "",
-                    "price":78.25                    
-                },
+                        "salchichas":[
 
-                {
-                    "id": 10 ,
-                    "name":"salchicas",
-                    "amount": "",
-                    "price":16.45                    
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""},
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ]
+
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            
+                            {"type": "",
+                            "brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+                        
+                        "papel sanitario":[
+                            
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "toallitas humedas":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "detergente":[
+                            
+                            {"type": "",
+                            "brand": "",
+                            "amount": "",
+                            "price": ""},
+
+                            {"type": "",
+                            "brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "desodorante":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "pasta dental":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "shampoo":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "acondicionador":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""},
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "crema corporal":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ]
+                    }
                 }
-                
-            ]
-            
-        
-        
-    }
-},
+            ]          
+        }
+    },
 
-{
-    "store": { "name": "El Mercado de la abuela",
+    {
+            "store": { "name": "Tic-Toc",
+            
             "location": { 
-                "lat": "",
-                "long":""
-                },
+                        "lat": "",
+                        "long":""},
             "products":[
                 {
-                    "id": 1 ,
-                    "name":"cafe",
-                    "amount": "",
-                    "price":32.16                    
-                },
+                    "groceries":{
+                        
+                        "cafe":[
+                            
+                            {"brand": "Sello Rojo",
+                            "amount": "283g",
+                            "price": 2300}
+                            ],
+                        
+                        "arroz":[
+                            
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                            ],
+                        
+                        "pastas":[
+                            
+                            {"brand": "",
+                            "type": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
 
-                {
-                    "id": 2 ,
-                    "name":"arroz",
-                    "amount": "",
-                    "price":45.21                    
-                },
+                        "pure de tomate":[
+                            
+                            {"brand": "",
+                            "amount": "",
+                            "price":""}
+                        ],
 
-                {
-                    "id": 3 ,
-                    "name":"azucar",
-                    "amount": "",
-                    "price":16.78                    
-                },
+                        "sal":[
 
-                {
-                    "id": 4 ,
-                    "name":"sal",
-                    "amount": "",
-                    "price":13.69                    
-                },
+                            {"brand": "",
+                            "amount": "1kg",
+                            "price": 500}
+                        ],
 
-                {
-                    "id": 5 ,
-                    "name":"pastas",
-                    "amount": "",
-                    "price":34.16                    
-                },
+                        "azucar":[
 
-                {
-                    "id": 6 ,
-                    "name":"picadillo",
-                    "amount": "",
-                    "price":13.58                    
-                },
+                            {"brand": "",
+                            "amount": "1kg",
+                            "price": 750}
+                        ]
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            
+                            {"type": "",
+                            "brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+                        
+                        "papel sanitario":[
+                            
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
 
-                {
-                    "id": 7 ,
-                    "name":"jabon",
-                    "amount": "",
-                    "price":36.47                    
-                },
+                        "toallitas humedas":[
 
-                {
-                    "id": 8 ,
-                    "name":"detergente",
-                    "amount": "",
-                    "price":16.78                    
-                },
+                            {"brand": "Dex",
+                            "amount": "72 unidades?",
+                            "price": 550}
+                        ],
 
-                {
-                    "id": 9 ,
-                    "name":"papel higienico",
-                    "amount": "",
-                    "price":35.22                    
-                },
+                        "detergente":[
+                            
+                            {"type": "",
+                            "brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
 
-                {
-                    "id": 10 ,
-                    "name":"salchicas",
-                    "amount": "",
-                    "price":11.87                    
+                        "desodorante":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "pasta dental":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "shampoo":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "acondicionador":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "crema corporal":[
+
+                            {"brand": "",
+                            "amount": "",
+                            "price": ""}
+                        ]
+                    }
                 }
-                
-            ]
-            
-        
-        
+            ]          
+        }
     }
+
+
+
+
+
+
+
+
+
+]
 }
-    ]
-}
+
+
+
