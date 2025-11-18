@@ -373,27 +373,43 @@
 
                         "sal":[
 
-                            {"brand": "",
+                            {"brand": "Polasal",
                             "amount": "1kg",
                             "price": 500}
                         ],
 
                         "azucar":[
 
-                            {"brand": "",
+                            {"brand": "Energy",
                             "amount": "1kg",
                             "price": 750}
+                        ],
+
+                        "picadillo":[
+
+                            {"brand": "Polskamp",
+                            "amount": "",
+                            "price": 600}
+                        ],
+
+                        "avena":[
+
+                            {"brand": "Del Campo",
+                            "amount": "0.450kg",
+                            "price": 700}
                         ]
+
+
                     },
                     
                     "hygiene":{
                         
                         "jabon":[
                             
-                            {"type": "",
-                            "brand": "",
-                            "amount": "",
-                            "price": ""}
+                            {"type": "lavar",
+                            "brand": "Total Care",
+                            "amount": "200g",
+                            "price": 500}
                         ],
                         
                         "papel sanitario":[
@@ -420,9 +436,13 @@
 
                         "desodorante":[
 
-                            {"brand": "",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": "Nina",
+                            "amount": "150ml",
+                            "price": 950},
+
+                            {"brand": "Prince",
+                            "amount": "150ml",
+                            "price": 950}
                         ],
 
                         "pasta dental":[
@@ -434,9 +454,13 @@
 
                         "shampoo":[
 
-                            {"brand": "",
+                            {"brand": "Nuky",
                             "amount": "",
-                            "price": ""}
+                            "price": 1400},
+
+                            {"brand": "Nina",
+                            "amount": "",
+                            "price": 950}
                         ],
 
                         "acondicionador":[
@@ -448,9 +472,13 @@
 
                         "crema corporal":[
 
-                            {"brand": "",
+                            {"brand": "Nuky",
                             "amount": "",
-                            "price": ""}
+                            "price": 800},
+
+                            {"brand": "Blazing",
+                            "amount": "",
+                            "price": 1700}
                         ]
                     }
                 }
