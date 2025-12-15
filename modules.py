@@ -1,57 +1,170 @@
-def mipyme_name(): #nombre de todas las mipymes
-    import json
-    with open ("./proyecto_icd.json","r",encoding="utf-8") as file:
-        data=json.load(file)
-    
-        mipymes = data["mipymes"]
-        for i in mipymes:
-            print(i["store"]["name"])
 
-mipyme_name()
+"""----------------------------------------------------------------------"""
 
-def mipyme_amount(): #cantidad de mipymes
-    import json
-    with open ("./proyecto_icd.json","r",encoding="utf-8") as file:
-        data=json.load(file)
-    
-        mipymes = data["mipymes"]
-        return len(mipymes)
-    
-print(mipyme_amount())
-
-
-def name_products(): #nombre de productos analizados 
-    import json
-    with open ("./proyecto_icd.json","r",encoding="utf-8") as file:
-        datos=json.load(file)
-    
-        empty = []
-        mipymes = datos["mipymes"]
-        for i in range(len(mipymes)):
-            products_food=mipymes[i]["store"]["products"][0]["groceries"]         
-            for j in products_food:
-                if j not in empty:
-                    empty.append(j)
-            products_bath=mipymes[i]["store"]["products"][0]["hygiene"]
-            for k in products_bath:  
-                if k not in empty:
-                    empty.append(k)
-    print(empty)
-    
-name_products()
-
-def name_products_amount(): #nombre del producto y cantidad del mismo en una mipyme
+def open_json():#abrir json
     import json
     with open ("./proyecto_icd.json","r",encoding="utf-8") as file:
         data=json.load(file)
         
-        mipymes = data["mipymes"]    
-        for i in range(len(mipymes)):
-            products = mipymes[i]["store"]["products"]
-            for j in products:
-                prod_food=j["groceries"]
-            for k,l in prod_food.items():
-                print(k,len(l))
-            print("--------") 
+        return data
+
+"""----------------------------------------------------------------------"""
+
+def mipyme_name(): #nombre de las mipymes analizadas
+    data = open_json()
+    
+    mipymes = data["mipymes"]
+    for mipyme in mipymes:
+        print(mipyme["store"]["name"])
+
+"""----------------------------------------------------------------------"""
+
+def mipyme_amount():#cantidad de mipymes analizadas
+    data = open_json()
+    
+    mipymes = data["mipymes"]
+    return len(mipymes)
+
+"""----------------------------------------------------------------------"""
+
+def name_products():#nombre de los productos analizados
+    data = open_json()
+    
+    empty = []
+    mipymes = data["mipymes"]
+    
+    for mipyme in range(len(mipymes)):
+        products_food=mipymes[mipyme]["store"]["products"][0]["groceries"]         
+        
+        for j in products_food:
+            if j not in empty:
+                empty.append(j)
+        products_bath=mipymes[mipyme]["store"]["products"][0]["hygiene"]
+        
+        for k in products_bath:  
+            if k not in empty:
+                empty.append(k)
+    return empty    
+
+"""----------------------------------------------------------------------"""
+
+def name_products_amount(): #cantidadde productos por categoria en cada mipyme
+    data = open_json()
+        
+    mipymes = data["mipymes"]    
+    for i in range(len(mipymes)):
+        products = mipymes[i]["store"]["products"]
+        for j in products:
+            prod_food=j["groceries"]
+        for k,l in prod_food.items():
+            print(k,len(l))
+        print("--------") 
+
+"""----------------------------------------------------------------------"""
+
+def category_prices():#lo quito?????
+    data = open_json()
+
+    list_prices = {}
+    count_food=0
+    count_bath=0
+
+    mipymes = data["mipymes"]
+    for mipyme in range(len(mipymes)):
+        
+        for i in range(len(mipymes[mipyme]["store"]["products"][0])):
+            food =mipymes[mipyme]["store"]["products"][0]["groceries"]
+            bath=mipymes[mipyme]["store"]["products"][0]["hygiene"]
+        
+            for j, items in food.items(): 
+                if j not in list_prices:
+                    list_prices[j]=[] 
+                for k in items:
+                    count_food+=1
+                    if k["price"] not in ["",None]:
+                        list_prices[j].append(k["price"])
+                            
             
-name_products_amount()
+            for j, items in bath.items(): 
+                if j not in list_prices:
+                    list_prices[j]=[] 
+                for k in items:
+                    count_bath+=1
+                    if k["price"] not in ["",None]:
+                        list_prices[j].append(k["price"])
+                    
+    return list_prices
+
+"""----------------------------------------------------------------------"""
+
+def process_products_food(): #procesar precios de los productos de comida
+    data = open_json()
+    list_prices_food= {}
+    count_food=0
+
+    mipymes = data["mipymes"]
+    for mipyme in range(len(mipymes)):
+        
+        for i in range(len(mipymes[mipyme]["store"]["products"][0])):
+            food =mipymes[mipyme]["store"]["products"][0]["groceries"]
+            
+            for j, items in food.items(): 
+                if j not in list_prices_food:
+                    list_prices_food[j]=[] 
+                
+                for k in items:
+                    count_food+=1
+                    if k["price"] not in ["",None]:
+                        list_prices_food[j].append(k["price"])
+                        
+    return list_prices_food
+
+"""----------------------------------------------------------------------"""
+
+def process_products_bath(): #procesar precios de los productos de aseo
+    data = open_json()
+    prices_bath= {}
+    count_bath=0
+
+    mipymes = data["mipymes"]
+    for mipyme in range(len(mipymes)):
+        
+        for i in range(len(mipymes[mipyme]["store"]["products"][0])):
+            bath=mipymes[mipyme]["store"]["products"][0]["hygiene"]
+        
+            for j, items in bath.items(): 
+                if j not in prices_bath:
+                    prices_bath[j]=[] 
+        
+                for k in items:
+                    count_bath+=1
+                    if k["price"] not in ["",None]:
+                        prices_bath[j].append(k["price"])
+                        
+    return prices_bath
+
+"""----------------------------------------------------------------------"""
+
+def average_prices_food():#precio promedio de productos alimenticios
+    data = open_json()
+    prices = process_products_food()
+    av_prices ={}
+    products = name_products()
+
+    for k, val in prices.items():
+        av_prices[k]=sum(val)//len(val)
+        
+    return av_prices 
+        
+"""----------------------------------------------------------------------"""
+
+def average_prices_bath():#precio promedio de productos de aseo
+    data = open_json()
+    prices = process_products_bath()
+    av_prices ={}
+    products = name_products()
+
+    for k, val in prices.items():
+        av_prices[k]=sum(val)//len(val)
+        
+    return av_prices 

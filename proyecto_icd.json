@@ -183,6 +183,14 @@
                             "measure":"L",
                             "amount": 0.525,
                             "price": 900}
+                        ],
+
+                        "pañales de adulto":[
+
+                            {"brand": "",
+                            "measure":"unidades",
+                            "amount": "",
+                            "price": ""}
                         ]
                     }
                 }
@@ -363,7 +371,7 @@
                             "price": ""}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -537,7 +545,7 @@
                             "price": 1700}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -700,7 +708,7 @@
                             "price": ""}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -884,7 +892,7 @@
                             "price": ""}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -1078,7 +1086,7 @@
                             "price": ""}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -1264,7 +1272,7 @@
                             "price": ""}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -1466,7 +1474,7 @@
                             "price": 1750}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -1661,7 +1669,7 @@
                             "price": ""}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -1846,7 +1854,7 @@
                             "price": ""}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -2020,7 +2028,7 @@
                             "price": ""}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -2236,7 +2244,7 @@
                             "price": 1550}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "Comfort Time",
                             "measure":"unidades",
@@ -2467,7 +2475,7 @@
                             "price": ""}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "Comfort Time",
                             "measure":"unidades",
@@ -2769,7 +2777,7 @@
                             "price": 1200}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -2959,7 +2967,7 @@
                             "price": 1100}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -3199,7 +3207,7 @@
                             "price": 1200}
                         ],
 
-                        "panhiales de adulto":[
+                        "pañales de adulto":[
 
                             {"brand": "",
                             "measure":"unidades",
@@ -3380,14 +3388,6 @@
                             {
                                 "brand": null,
                                 "measure": "L",
-                                "amount": null,
-                                "price": null
-                            }
-                            ],
-                            "panhiales de adultos": [
-                            {
-                                "brand": null,
-                                "measure": "unidades",
                                 "amount": null,
                                 "price": null
                             }

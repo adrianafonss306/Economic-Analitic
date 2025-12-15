@@ -212,5 +212,7 @@ __marimo__/
 !modules.py
 !proyect_modules.ipynb
 
+modules.py
+proyect_modules.ipynb
 __pycache__/
 venv/
