@@ -121,7 +121,7 @@
 
                             {"brand": "Dex",
                             "measure":"unidades",
-                            "amount": "",
+                            "amount": 80,
                             "price": 550}
                         ],
 
@@ -187,9 +187,9 @@
 
                         "pañales de adulto":[
 
-                            {"brand": "",
-                            "measure":"unidades",
-                            "amount": "",
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
                             "price": null}
                         ]
                     }
@@ -225,7 +225,7 @@
                             
                             {"brand": "Rainha",
                             "measure":"kg",
-                            "amount": "",
+                            "amount": 1,
                             "price": 750}
                             ],
                         
@@ -234,19 +234,19 @@
                             {"brand": "Siddo",
                             "type": "Codos",
                             "measure":"kg",
-                            "amount": "",
+                            "amount": 0.4,
                             "price": 400},
                             
                             {"brand": "Siddo",
                             "type": "tornillos?",
                             "measure":"kg",
-                            "amount": "",
+                            "amount": 0.5,
                             "price": 400},
 
                             {"brand": "",
                             "type": "Spaguetti",
                             "measure":"kg",
-                            "amount": "",
+                            "amount": 0.5,
                             "price": 350}
                         ],
 
@@ -254,32 +254,32 @@
                             
                             {"brand": "Yumato",
                             "measure":"kg",
-                            "amount": "",
+                            "amount": 0.75,
                             "price":480}
                         ],
 
                         "sal":[
 
-                            {"brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "azucar":[
 
                             {"brand": "Don Juan",
                             "measure":"kg",
-                            "amount": "",
+                            "amount": 1,
                             "price": 700}
                         ],
 
                         "avena":[
 
-                            {"brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ]
 
                     },
@@ -288,94 +288,94 @@
                         
                         "jabon":[
                             
-                            {"type": "",
-                            "brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
+                            {"type": null,
+                            "brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
                         
                         "papel sanitario":[
                             
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "toallitas humedas":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                     "detergente":[
                             
-                            {"type":"",
-                            "brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""},
+                            {"type":null,
+                            "brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null},
 
-                            {"type": "",
-                            "brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"type": null,
+                            "brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "desodorante":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "pasta dental":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "shampoo":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "acondicionador":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""},
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null},
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "crema corporal":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "pañales de adulto":[
 
-                            {"brand": "",
-                            "measure":"unidades",
-                            "amount": "",
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
                             "price": null}
                         ]
                     }
@@ -412,19 +412,19 @@
                         
                         "pastas":[
                             
-                            {"brand": "",
-                            "type": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "type": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "pure de tomate":[
                             
-                            {"brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price":""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price":null}
                         ],
 
                         "sal":[
@@ -467,10 +467,10 @@
                         
                         "papel sanitario":[
                             
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "toallitas humedas":[
@@ -483,73 +483,73 @@
                         
                     "detergente":[
                             
-                            {"type":"",
-                            "brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"type":null,
+                            "brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "desodorante":[
 
                             {"brand": "Nina",
-                            "measure":"",
-                            "amount": "150ml",
+                            "measure":"L",
+                            "amount": 0.15,
                             "price": 950},
 
                             {"brand": "Prince",
-                            "measure":"",
-                            "amount": "150ml",
+                            "measure":"L",
+                            "amount": 0.15,
                             "price": 950}
                         ],
 
                         "pasta dental":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "shampoo":[
 
                             {"brand": "Nuky",
-                            "measure":"",
-                            "amount": "",
+                            "measure":"L",
+                            "amount": 0.75,
                             "price": 1400},
 
                             {"brand": "Nina",
-                            "measure":"",
-                            "amount": "",
+                            "measure":"L",
+                            "amount": 0.75,
                             "price": 950}
                         ],
 
                         "acondicionador":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "crema corporal":[
 
                             {"brand": "Nuky",
-                            "measure":"",
-                            "amount": "",
+                            "measure":"L",
+                            "amount": 0.7,
                             "price": 800},
 
                             {"brand": "Blazing",
-                            "measure":"",
-                            "amount": "",
+                            "measure":"L",
+                            "amount": 0.75,
                             "price": 1700}
                         ],
 
                         "pañales de adulto":[
 
-                            {"brand": "",
-                            "measure":"unidades",
-                            "amount": "",
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
                             "price": null}
                         ]
                     }
@@ -583,19 +583,19 @@
                         
                         "arroz":[
                             
-                            {"brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                             ],
                         
                         "pastas":[
                             
-                            {"brand": "",
-                            "type": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "type": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "pure de tomate":[
@@ -608,18 +608,18 @@
 
                         "sal":[
 
-                            {"brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "azucar":[
 
-                            {"brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "avena":[
@@ -645,35 +645,35 @@
                         
                         "papel sanitario":[
                             
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "toallitas humedas":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
                         
                     "detergente":[
                             
-                            {"type":"",
-                            "brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"type":null,
+                            "brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "desodorante":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "pasta dental":[
@@ -686,33 +686,33 @@
 
                         "shampoo":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "acondicionador":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "crema corporal":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "pañales de adulto":[
 
-                            {"brand": "",
-                            "measure":"unidades",
-                            "amount": "",
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
                             "price": null}
                         ]
                     }
@@ -960,18 +960,18 @@
 
                         "pure de tomate":[
                             
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price":""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price":null}
                         ],
 
                         "sal":[
 
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
+                            {"brand": null,
+                            "measure":null,
+                            "amount": null,
+                            "price": null}
                         ],
 
                         "azucar":[
