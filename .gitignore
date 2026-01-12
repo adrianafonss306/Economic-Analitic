@@ -207,7 +207,7 @@ marimo/_lsp/
 __marimo__/
 
 *.py
-*ipynb
+
 
 !modules.py
 !proyect_modules.ipynb
