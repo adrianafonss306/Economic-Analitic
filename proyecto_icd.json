@@ -4,8 +4,8 @@
             "store": { "name": "Mercado Astro Rey",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.118132,
+                        "long":-82.391197},
             "products":[
                 {
                     "groceries":{
@@ -202,8 +202,8 @@
             "store": { "name": "Marilu Mercadito",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.135359,
+                        "long":-82.380497},
             "products":[
                 {
                     "groceries":{
@@ -388,8 +388,8 @@
             "store": { "name": "Tic-Toc",
             
             "location": { 
-                        "lat": "23.144960085398168",
-                        "long":"-82.38794664726426"},
+                        "lat": 23.144960085398168,
+                        "long":-82.38794664726426},
             "products":[
                 {
                     "groceries":{
@@ -562,8 +562,8 @@
             "store": { "name": "Bodegon D'K",
             
             "location": { 
-                        "lat": "23.1",
-                        "long":"-18.1"},
+                        "lat": 23.1,
+                        "long":-18.1},
             "products":[
                 {
                     "groceries":{
@@ -909,8 +909,8 @@
             "store": { "name": "Mercadito 31",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.115199,
+                        "long":-82.391212},
             "products":[
                 {
                     "groceries":{
@@ -1103,8 +1103,8 @@
             "store": { "name": "Colo Shop",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.120791,
+                        "long":-82.404461},
             "products":[
                 {
                     "groceries":{
@@ -1289,8 +1289,8 @@
             "store": { "name": "Bodegon 26",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.115055,
+                        "long":-82.399882},
             "products":[
                 {
                     "groceries":{
@@ -1491,8 +1491,8 @@
             "store": { "name": "Merida's Bodegon",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.114367,
+                        "long":-82.399499},
             "products":[
                 {
                     "groceries":{
@@ -1686,8 +1686,8 @@
             "store": { "name": "17 y L",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.142441,
+                        "long":-82.385657},
             "products":[
                 {
                     "groceries":{
@@ -1871,8 +1871,8 @@
             "store": { "name": "Bodegon 17",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.136318,
+                        "long":-82.392763},
             "products":[
                 {
                     "groceries":{
@@ -2045,8 +2045,8 @@
             "store": { "name": "Thany's Bodegon",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.135797,
+                        "long":82.394438},
             "products":[
                 {
                     "groceries":{
@@ -2261,8 +2261,8 @@
             "store": { "name": "En Plaza",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat":23.130923,
+                        "long":-82.394806},
             "products":[
                 {
                     "groceries":{
@@ -2492,8 +2492,8 @@
             "store": { "name": "FullMarket ",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.125889,
+                        "long":-82407133},
             "products":[
                 {
                     "groceries":{
@@ -2794,8 +2794,8 @@
             "store": { "name": "El Cartucho",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.116208,
+                        "long":-82.400003},
             "products":[
                 {
                     "groceries":{
