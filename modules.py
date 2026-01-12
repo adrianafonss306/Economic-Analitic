@@ -10,6 +10,16 @@ def open_json():#abrir json
 
 """----------------------------------------------------------------------"""
 
+def open_json_canasta():#abrir json
+    import json
+    with open ("./Canasta_Basica.json","r",encoding="utf-8") as file:
+        data=json.load(file)
+        
+        return data
+    
+"""----------------------------------------------------------------------"""
+
+
 def mipyme_name(): #nombre de las mipymes analizadas
     data = open_json()
     
@@ -62,7 +72,7 @@ def name_products_amount(): #cantidadde productos por categoria en cada mipyme
 
 """----------------------------------------------------------------------"""
 
-def category_prices():#lo quito?????
+def category_prices():
     data = open_json()
 
     list_prices = {}
@@ -99,7 +109,7 @@ def category_prices():#lo quito?????
 
 def process_products_food(): #procesar precios de los productos de comida
     data = open_json()
-    list_prices_food= {}
+    prices_food= {}
     count_food=0
 
     mipymes = data["mipymes"]
@@ -109,15 +119,15 @@ def process_products_food(): #procesar precios de los productos de comida
             food =mipymes[mipyme]["store"]["products"][0]["groceries"]
             
             for j, items in food.items(): 
-                if j not in list_prices_food:
-                    list_prices_food[j]=[] 
+                if j not in prices_food:
+                    prices_food[j]=[] 
                 
                 for k in items:
                     count_food+=1
                     if k["price"] not in ["",None]:
-                        list_prices_food[j].append(k["price"])
+                        prices_food[j].append(k["price"])
                         
-    return list_prices_food
+    return prices_food
 
 """----------------------------------------------------------------------"""
 
@@ -145,7 +155,7 @@ def process_products_bath(): #procesar precios de los productos de aseo
 
 """----------------------------------------------------------------------"""
 
-def average_prices_food():#precio promedio de productos alimenticios
+def dict_average_food():#precio promedio de productos alimenticios
     data = open_json()
     prices = process_products_food()
     av_prices ={}
@@ -158,7 +168,7 @@ def average_prices_food():#precio promedio de productos alimenticios
         
 """----------------------------------------------------------------------"""
 
-def average_prices_bath():#precio promedio de productos de aseo
+def dict_average_bath():#precio promedio de productos de aseo
     data = open_json()
     prices = process_products_bath()
     av_prices ={}
@@ -168,3 +178,55 @@ def average_prices_bath():#precio promedio de productos de aseo
         av_prices[k]=sum(val)//len(val)
         
     return av_prices 
+
+"""----------------------------------------------------------------------"""
+
+def dict_average_all():#precio promedio pero de todos los productos
+    prices_food = process_products_food()
+    prices_bath = process_products_bath()
+    
+    all_prices = {**prices_food, **prices_bath}
+
+    av_prices = {}
+    for k, val in all_prices.items():
+        av_prices[k] = sum(val) // len(val)
+    return av_prices
+
+"""----------------------------------------------------------------------"""
+
+def average(list):#promedio de una lista
+    for element in list:
+        result= sum(element)/len(list)
+        return result
+    
+"""----------------------------------------------------------------------"""
+
+def available_diapers():
+    data = open_json()
+    yes = 0
+    no = 0
+    mipymes = data["mipymes"]
+
+    for mipyme in mipymes:
+        bath = mipyme["store"]["products"][0]["hygiene"]["pañales de adulto"]
+        disponible = False
+        for item in bath:
+            if item["price"] is not None:
+                disponible = True
+                break
+                
+        if disponible:
+            yes += 1
+        else:
+            no += 1
+    return {"tienen":yes,"no tienen":no}
+    
+"""----------------------------------------------------------------------"""
+
+def percent(a,b): #convertir en porciento
+    p=a*100/b
+    return p
+
+"""----------------------------------------------------------------------"""
+
+

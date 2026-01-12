@@ -143,8 +143,8 @@
                         "desodorante":[
 
                             {"brand": "Queray",
-                            "measure":"",
-                            "amount": "",
+                            "measure":"L",
+                            "amount": 0.09,
                             "price": 850}
                         ],
 
@@ -190,7 +190,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -376,7 +376,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -388,8 +388,8 @@
             "store": { "name": "Tic-Toc",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": "23.144960085398168",
+                        "long":"-82.38794664726426"},
             "products":[
                 {
                     "groceries":{
@@ -550,7 +550,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -562,8 +562,8 @@
             "store": { "name": "Bodegon D'K",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": "23.1",
+                        "long":"-18.1"},
             "products":[
                 {
                     "groceries":{
@@ -713,7 +713,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -897,7 +897,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -1091,7 +1091,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -1277,7 +1277,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -1479,7 +1479,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -1674,7 +1674,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -1859,7 +1859,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -2033,7 +2033,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -2489,7 +2489,7 @@
     },
 
         {
-            "store": { "name": "Jo & Jo or FullMarket ",
+            "store": { "name": "FullMarket ",
             
             "location": { 
                         "lat": "",
@@ -2782,7 +2782,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -2972,7 +2972,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -3212,7 +3212,7 @@
                             {"brand": "",
                             "measure":"unidades",
                             "amount": "",
-                            "price": ""}
+                            "price": null}
                         ]
                     }
                 }
@@ -3391,12 +3391,2120 @@
                                 "amount": null,
                                 "price": null
                             }
-                            ]
-                        }
-                        }
-                    ]
+                            ],
+
+                            "pañales de adulto":[
+
+                            {"brand": "",
+                            "measure":"unidades",
+                            "amount": "",
+                            "price": null}
+                        ]
                     }
                 }
+            ]
+        }
+    },
+        {
+            "store": { "name": "Two7Marker",
+                
+            "location": { 
+                    "lat": 23.117861,
+                    "long": -82.389612
+                },
+                
+            "products":[
+                    {
+                        "groceries":{
+                            
+                            "cafe":[
+                            {
+                                "brand"   : "El Morro",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 1900 
+                                },
+                            { 
+                                "brand"   : "La Carreta",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 1900 
+                            },
+                            { 
+                                "brand"   : "Sebraz",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 1850 
+                            }
+                            ],
+                            
+                            "arroz":[
+                                { 
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 760 
+                            },
+                            { 
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 2.27,
+                                "price"   : 2300 
+                            }
+                            ],
+                            
+                            "pastas":[
+                                { 
+                                "brand"   : "",
+                                "type"    : "espaguetis",
+                                "measure" : "kg",
+                                "amount"  : 0.40,
+                                "price"   : 350 
+                            },
+                            { 
+                                "brand"   : "",
+                                "type"    : "espaguetis",
+                                "measure" : "kg",
+                                "amount"  : 0.50,
+                                "price"   : 415 
+                            },
+                            { 
+                                "brand"   : "",
+                                "type"    : "tornillo",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 500 
+                            },
+                            { 
+                                "brand"   : "Tu Pasta",
+                                "type"    : "espaguetis",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 380 
+                            },
+                            { 
+                                "brand"   : "Donatella",
+                                "type"    : "espaguetis",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 410 
+                            }
+                        ],
+
+                        "pure de tomate":[
+                            { 
+                                "brand"   : "Val",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 1000 
+                            },
+                            { 
+                                "brand"   : "El Roble",
+                                "measure" : "kg",
+                                "amount"  : 0.45,
+                                "price"   : 450 
+                            }
+                        ],
+
+                        "sal":[
+                            { 
+                                "brand"   : "Marina",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 250 
+                            },
+                            { 
+                                "brand"   : "Polasal",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 485 
+                            }
+                        ],
+
+                        "azucar":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 870 
+                            }
+                        ],
+
+                        "avena":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 0.40,
+                                "price"   : 680 
+                            },
+                            { 
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 0.45,
+                                "price"   : 780 
+                            }
+                        ]
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            { 
+                                "type"    : "Palmolive aloe",
+                                "brand"   : "Palmolive",
+                                "measure" : "kg",
+                                "amount"  : 0.15,
+                                "price"   : 700 
+                            }
+                        ],
+                        
+                        "papel sanitario":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "rollos",
+                                "amount"  : 1,
+                                "price"   : 870 
+                            }
+                        ],
+
+                        "toallitas humedas":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "unidades",
+                                "amount"  : 64,
+                                "price"   : 700 
+                            },
+                            { 
+                                "brand"   : "",
+                                "measure" : "unidades",
+                                "amount"  : 120,
+                                "price"   : 1200 
+                            }
+                        ],
+
+                        "detergente":[
+                            { 
+                                "type"    : "polvo",
+                                "brand"   : "Saba",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 830 
+                            },
+                            { 
+                                "type"    : "líquido",
+                                "brand"   : "Total Care",
+                                "measure" : "L",
+                                "amount"  : 0.50,
+                                "price"   : 740 
+                            }
+                        ],
+
+                        "desodorante":[
+                            { 
+                                "brand"   : "Rexona",
+                                "measure" : "unidades",
+                                "amount"  : 1,
+                                "price"   : 1900 
+                            },
+                            { 
+                                "brand"   : "Lady Speed Stick",
+                                "measure" : "unidades",
+                                "amount"  : 1,
+                                "price"   : 1600 
+                            }
+                        ],
+
+                        "pasta dental":[
+                            { 
+                                "brand"   : "Colgate",
+                                "measure" : "L",
+                                "amount"  : 0.15,
+                                "price"   : 2000 
+                            }
+                        ],
+
+                        "shampoo":[
+                            { 
+                                "brand"   : "Pantene",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 3300 
+                            }
+                        ],
+
+                        "acondicionador":[
+                            { 
+                                "brand"   : "Coco",
+                                "measure" : "L",
+                                "amount"  : 0.50,
+                                "price"   : 1600 
+                            }
+                        ],
+
+                        "crema corporal":[
+                            { 
+                                "brand"   : "Coco",
+                                "measure" : "L",
+                                "amount"  : 0.30,
+                                "price"   : 1240 
+                            }
+                        ],
+
+                        "pañales de adulto":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "unidades",
+                                "amount"  : 1,
+                                "price"   : 4200 
+                            }
+                        ]
+                    }
+                }
+            ]          
+        }
+    },
+        {
+        "store": { "name": "Mercado Don Tito",
+            
+        "location": { 
+                "lat": 0,
+                "long": 0
+            },
+            "products":[
+                {
+                    "groceries":{
+                        
+                        "cafe":[
+                            { 
+                                "brand"   : "Aroma",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 2300 
+                            },
+                            { 
+                                "brand"   : "Ranchero extra fuerte",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 1800 
+                            }
+                        ],
+                        
+                        "arroz":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 700 
+                            }
+                        ],
+                        
+                        "pastas":[
+                            { 
+                                "brand"   : "",
+                                "type"    : "espaguetis",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 350 
+                            },
+                            { 
+                                "brand"   : "",
+                                "type"    : "coditos",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 350 
+                            },
+                            { 
+                                "brand"   : "",
+                                "type"    : "fideos sabor pollo",
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : 350 
+                            }
+                        ],
+
+                        "pure de tomate":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 500 
+                            },
+                            { 
+                                "brand"   : "Tomate frito",
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : 700 
+                            }
+                        ],
+
+                        "sal":[
+                            { 
+                                "brand"   : "Sal fina",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 600 
+                            }
+                        ],
+
+                        "azucar":[
+                            { 
+                                "brand"   : "Blanca",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 700 
+                            }
+                        ],
+
+                        "avena":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 700 
+                            }
+                        ]
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            { 
+                                "type"    : "baño",
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : 160 
+                            }
+                        ],
+                        
+                        "papel sanitario":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "rollos",
+                                "amount"  : 4,
+                                "price"   : 600 
+                            }
+                        ],
+
+                        "toallitas humedas":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "unidades",
+                                "amount"  : 120,
+                                "price"   : 800 
+                            }
+                        ],
+
+                        "detergente":[
+                            { 
+                                "type"    : "gel WC Ocean",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 1450 
+                            },
+                            { 
+                                "type"    : "gel WC Cerezo",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 1450 
+                            },
+                            { 
+                                "type"    : "gel WC Lejía",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 1450 
+                            },
+                            { 
+                                "type"    : "polvo",
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 650 
+                            },
+                            { 
+                                "type"    : "fregasuelos talco",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : 1000 
+                            },
+                            { 
+                                "type"    : "fregasuelos ocean",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : 1000 
+                            }
+                        ],
+
+                        "desodorante":[
+                            { 
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "pasta dental":[
+                            { 
+                                "brand"   : "Colgate",
+                                "measure" : "",
+                                "amount"  : null,
+                                "price"   : 2000 
+                            }
+                        ],
+
+                        "shampoo":[
+                            { 
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : 1100 
+                            },
+                            { 
+                                "brand"   : "Doxa",
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : 1200 
+                            }
+                        ],
+
+                        "acondicionador":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "crema corporal":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "pañales de adulto":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "unidades",
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ]
+                    }
+                }
+            ]          
+        }
+    },
+        {
+        "store": { "name": "Mercadito ENEA",
+            
+            "location": { 
+                "lat": 23.0664711,
+                "long": -82.3782511},
+
+            "products":[
+                {
+                    "groceries":{
+                        
+                        "cafe":[
+                            { 
+                                "brand"   : "Purasangre",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 1750 
+                            }
+                        ],
+                        
+                        "arroz":[
+                            { 
+                                "brand"   : "San Diego",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 650 
+                            },
+                            { 
+                                "brand"   : "Brasileño",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 650 
+                            }
+                        ],
+                        
+                        "pastas":[
+                            { 
+                                "brand"   : "",
+                                "type"    : "coditos",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 300 
+                            },
+                            { 
+                                "brand"   : "",
+                                "type"    : "espaguetis",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 320 
+                            }
+                        ],
+
+                        "pure de tomate":[
+                            { 
+                                "brand"   : "Zer",
+                                "measure" : "kg",
+                                "amount"  : 0.4,
+                                "price"   : 530 
+                            }
+                        ],
+
+                        "sal":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "azucar":[
+                            { 
+                                "brand"   : "Cristal blanca",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 680 
+                            }
+                        ],
+
+                        "avena":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ]
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            { 
+                                "type"    : "violeta",
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 0.1,
+                                "price"   : 150 
+                            },
+                            { 
+                                "type"    : "rosas",
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 0.1,
+                                "price"   : 150 
+                            },
+                            { 
+                                "type"    : "leche y miel",
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 0.1,
+                                "price"   : 150 
+                            },
+                            { 
+                                "type"    : "limón",
+                                "brand"   : "",
+                                "measure" : "kg",
+                                "amount"  : 0.1,
+                                "price"   : 150 
+                            }
+                        ],
+                        
+                        "papel sanitario":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "rollos",
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "toallitas humedas":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "unidades",
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "detergente":[
+                            { 
+                                "type"    : "friegasuelos",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 450 
+                            },
+                            { 
+                                "type"    : "desincrustante baños",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 450 
+                            },
+                            { 
+                                "type"    : "lejía cloro",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 450 
+                            },
+                            { 
+                                "type"    : "fregar vajillas",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 550 
+                            },
+                            { 
+                                "type"    : "lavar ropa",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 550 
+                            },
+                            { 
+                                "type"    : "blanqueador ropa",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 550 
+                            },
+                            { 
+                                "type"    : "desinfectante Pinoaroma",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 450 
+                            }
+                        ],
+
+                        "desodorante":[
+                            { 
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "pasta dental":[
+                            { 
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "shampoo":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "acondicionador":[
+                            { 
+                                "brand"   : "Mascarilla capilar coco",
+                                "measure" : "kg",
+                                "amount"  : 0.95,
+                                "price"   : 2600 
+                            }
+                        ],
+
+                        "crema corporal":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "pañales de adulto":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "unidades",
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ]
+                    }
+                }
+            ]          
+        }
+    },
+        {
+        "store": { "name": "Market Rey",
+            
+            "location": { 
+                "lat": 23.1539537,
+                "long": -82.3335421
+            },
+            "products":[
+                {
+                    "groceries":{
+                        
+                        "cafe":[
+                            { 
+                                "brand"   : "Paraná",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 2095.80
+                            }
+                        ],
+                        
+                        "arroz":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : null
+                            }
+                        ],
+                        
+                        "pastas":[
+                            { 
+                                "brand"   : "Makarna",
+                                "type"    : "espaguetis",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 415.80
+                            }
+                        ],
+
+                        "pure de tomate":[
+                            {
+                                "brand"   : "Sabrosísimo",
+                                "measure" : "kg",
+                                "amount"  : 0.4,
+                                "price"   : 630.00
+                            },
+                            {
+                                "brand"   : "Sabrosísimo doble concentrado",
+                                "measure" : "kg",
+                                "amount"  : 0.8,
+                                "price"   : 1255.80
+                            }
+                        ],
+
+                        "azucar":[
+                            { 
+                                "brand"   : "Silver Foods",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 882.00
+                            }
+                        ],
+
+                        "sal":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+
+                        "avena":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ]
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            { 
+                                "type"    : "tocador miel y leche",
+                                "brand"   : "Total Care",
+                                "measure" : "kg",
+                                "amount"  : 0.075,
+                                "price"   : 231.00
+                            },
+                            { 
+                                "type"    : "baño rosas",
+                                "brand"   : "Ridel",
+                                "measure" : "kg",
+                                "amount"  : 0.1,
+                                "price"   : 252.00
+                            },
+                            { 
+                                "type"    : "baño miel",
+                                "brand"   : "Ridel",
+                                "measure" : "kg",
+                                "amount"  : 0.1,
+                                "price"   : 252.00
+                            }
+                        ],
+                        
+                        "papel sanitario":[
+                            { 
+                                "brand"   : "La Excelencia",
+                                "measure" : "rollos",
+                                "amount"  : 4,
+                                "price"   : 835.80
+                            }
+                        ],
+
+                        "toallitas humedas":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "unidades",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+
+                        "detergente":[
+                            { 
+                                "type"    : "polvo Foam Plus",
+                                "brand"   : "Foam Plus",
+                                "measure" : "kg",
+                                "amount"  : 3,
+                                "price"   : 2646.00
+                            },
+                            { 
+                                "type"    : "polvo Foam Plus",
+                                "brand"   : "Foam Plus",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 1155.00
+                            },
+                            { 
+                                "type"    : "líquido Kapital",
+                                "brand"   : "Kapital",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 1050.00
+                            },
+                            { 
+                                "type"    : "líquido 4 en 1",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 1785.00
+                            },
+                            { 
+                                "type"    : "líquido 4 en 1",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 2,
+                                "price"   : 3150.00
+                            },
+                            { 
+                                "type"    : "lavavajillas líquido",
+                                "brand"   : "Total",
+                                "measure" : "ml",
+                                "amount"  : 500,
+                                "price"   : 714.00
+                            },
+                            { 
+                                "type"    : "pasta lavavajillas",
+                                "brand"   : "Total Care",
+                                "measure" : "g",
+                                "amount"  : 200,
+                                "price"   : 567.00
+                            },
+                            { 
+                                "type"    : "pasta lavavajillas",
+                                "brand"   : "Total Care",
+                                "measure" : "g",
+                                "amount"  : 400,
+                                "price"   : 777.00
+                            }
+                        ],
+
+                        "pasta dental":[
+                            { 
+                                "brand"   : "S'Nonas Aloe Vera",
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : 1323.00
+                            }
+                        ],
+
+                        "shampoo":[
+                            { 
+                                "brand"   : "Comfortime anticaspa",
+                                "measure" : "ml",
+                                "amount"  : 1000,
+                                "price"   : 3750.00
+                            },
+                            { 
+                                "brand"   : "Comfortime anticaspa",
+                                "measure" : "ml",
+                                "amount"  : 500,
+                                "price"   : 2250.00
+                            }
+                        ],
+
+                        "acondicionador":[
+                            { 
+                                "brand"   : null,
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+
+                        "crema corporal":[
+                            { 
+                                "brand"   : "Coco",
+                                "measure" : "ml",
+                                "amount"  : 300,
+                                "price"   : 1260.00
+                            }
+                        ],
+
+                        "pañales de adulto":[
+                            { 
+                                "brand"   : "Lindor fit",
+                                "measure" : "unidades",
+                                "amount"  : 20,
+                                "price"   : 3775.80
+                            }
+                        ]
+                    }
+                }
+            ]          
+        }
+    },
+        {
+        "store": { "name": "Malcriado",
+            
+        "location": { 
+                "lat": 23.139553,
+                "long": -82.3792295
+            },
+            "products":[
+                {
+                    "groceries":{
+                        
+                        "cafe":[
+                            {
+                                "brand"   : "Goya Espresso",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 2520.00
+                            },
+                            {
+                                "brand"   : "Vima",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 2600.00
+                            },
+                            {
+                                "brand"   : "Cubita",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 2600.00
+                            },
+                            {
+                                "brand"   : "Ristora Capuccino",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 2050.00
+                            },
+                            {
+                                "brand"   : "Ristora Instantáneo",
+                                "measure" : "kg",
+                                "amount"  : 0.1,
+                                "price"   : 2530.00
+                            }
+                        ],
+                        
+                        "arroz":[
+                            {
+                                "brand"   : "Extremo Sabor",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 810.00
+                            }
+                        ],
+                        
+                        "pastas":[
+                            {
+                                "brand"   : "Bodrum",
+                                "type"    : "fusilli",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 370.00
+                            },
+                            {
+                                "brand"   : "Bodrum",
+                                "type"    : "penne",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 370.00
+                            }
+                        ],
+
+                        "pure de tomate":[
+                            {
+                                "brand"   : "Gourmet",
+                                "measure" : "kg",
+                                "amount"  : 0.39,
+                                "price"   : 890.00
+                            }
+                        ],
+
+                        "sal":[
+                            {
+                                "brand"   : "Cuor di Mare",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 800.00
+                            }
+                        ],
+
+                        "azucar":[
+                            {
+                                "brand"   : null,
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+
+                        "avena":[
+                            {
+                                "brand"   : "Astine",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 2400.00
+                            }
+                        ]
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            {
+                                "type"    : null,
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+                        
+                        "papel sanitario":[
+                            {
+                                "brand"   : null,
+                                "measure" : "rollos",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+
+                        "toallitas humedas":[
+                            {
+                                "brand"   : null,
+                                "measure" : "unidades",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+
+                        "detergente":[
+                            {
+                                "type"    : "desengrasante",
+                                "brand"   : "",
+                                "measure" : "ml",
+                                "amount"  : 750,
+                                "price"   : 1480.00
+                            },
+                            {
+                                "type"    : "oxígeno activo",
+                                "brand"   : "",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 1260.00
+                            },
+                            {
+                                "type"    : "limpiador crema amoniaco",
+                                "brand"   : "Be Winex World",
+                                "measure" : "g",
+                                "amount"  : 750,
+                                "price"   : 1000.00
+                            },
+                            {
+                                "type"    : "removedor manchas ropa",
+                                "brand"   : "Be Winex World",
+                                "measure" : "g",
+                                "amount"  : 500,
+                                "price"   : 2100.00
+                            }
+                        ],
+
+                        "pasta dental":[
+                            {
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+
+                        "shampoo":[
+                            {
+                                "brand"   : null,
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+
+                        "acondicionador":[
+                            {
+                                "brand"   : null,
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+
+                        "crema corporal":[
+                            {
+                                "brand"   : null,
+                                "measure" : "L",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ],
+
+                        "pañales de adulto":[
+                            {
+                                "brand"   : null,
+                                "measure" : "unidades",
+                                "amount"  : null,
+                                "price"   : null
+                            }
+                        ]
+                    }
+                }
+            ]          
+        }
+    },
+        {
+        "store": { "name": "TenCen",
+            
+        "location": { 
+                "lat": 23.103973,
+                "long": -82.3500295
+            },
+            "products":[
+                {
+                    "groceries":{
+                        
+                        "cafe":[
+                            { 
+                                "brand"   : "Cafe Caribe",
+                                "measure" : "kg",
+                                "amount"  : 0.284,
+                                "price"   : 2200.0 
+                            },
+                            { 
+                                "brand"   : "Cafe Isla Grande",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 1800.0 
+                            },
+                            { 
+                                "brand"   : "Cafe La Llave",
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : 5240.0 
+                            },
+                            { 
+                                "brand"   : "Nescafé Clásico Soluble",
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : 4950.0 
+                            }
+                        ],
+                        
+                        "arroz":[
+                            { 
+                                "brand"   : "Super Extra KDM Gold",
+                                "measure" : "kg",
+                                "amount"  : 0.9,
+                                "price"   : 780.0 
+                            },
+                            { 
+                                "brand"   : "Timba",
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : 255.0 
+                            }
+                        ],
+                        
+                        "pastas":[
+                            { 
+                                "brand"   : "Bodrum",
+                                "type"    : "Fusilli",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 370.0 
+                            },
+                            { 
+                                "brand"   : "Bodrum",
+                                "type"    : "Penne Rigate",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 370.0 
+                            },
+                            { 
+                                "brand"   : "Bodrum",
+                                "type"    : "Vermicelli",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 370.0 
+                            }
+                        ],
+
+                        "pure de tomate":[
+                            { 
+                                "brand"   : "Silver Foods",
+                                "measure" : "kg",
+                                "amount"  : 0.4,
+                                "price"   : 520.0 
+                            },
+                            { 
+                                "brand"   : "La Pasta",
+                                "measure" : "kg",
+                                "amount"  : 0.075,
+                                "price"   : 150.0 
+                            },
+                            { 
+                                "brand"   : "Gourmet Tomate Frito",
+                                "measure" : "kg",
+                                "amount"  : 0.39,
+                                "price"   : 800.0 
+                            }
+                        ],
+
+                        "sal":[
+                            { 
+                                "brand"   : "Sal Fina Caja",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 700.0 
+                            },
+                            { 
+                                "brand"   : "Sal Gruesa",
+                                "measure" : "kg",
+                                "amount"  : 0.1,
+                                "price"   : 795.0 
+                            },
+                            { 
+                                "brand"   : "Sal de Ajo Badia",
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : 1000.0 
+                            },
+                            { 
+                                "brand"   : "Sal de Cebolla Badia",
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : 850.0 
+                            },
+                            { 
+                                "brand"   : "Sal Gruesa Cancio",
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : 1300.0 
+                            }
+                        ],
+
+                        "azucar":[
+                            { 
+                                "brand"   : "Cristal",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 800.0 
+                            }
+                        ],
+
+                        "avena":[
+                            { 
+                                "brand"   : "Yummy",
+                                "measure" : "kg",
+                                "amount"  : 0.284,
+                                "price"   : 1150.0 
+                            }
+                        ]
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            { 
+                                "type"    : "tocador miel y leche",
+                                "brand"   : "Total Care",
+                                "measure" : "kg",
+                                "amount"  : 0.075,
+                                "price"   : 231.0 
+                            },
+                            { 
+                                "type"    : "baño rosas",
+                                "brand"   : "Ridel",
+                                "measure" : "kg",
+                                "amount"  : 0.1,
+                                "price"   : 252.0 
+                            },
+                            { 
+                                "type"    : "baño miel",
+                                "brand"   : "Ridel",
+                                "measure" : "kg",
+                                "amount"  : 0.1,
+                                "price"   : 252.0 
+                            }
+                        ],
+                        
+                        "papel sanitario":[
+                            { 
+                                "brand"   : "La Excelencia",
+                                "measure" : "rollos",
+                                "amount"  : 4,
+                                "price"   : 835.8 
+                            }
+                        ],
+
+                        "toallitas humedas":[
+                            { 
+                                "brand"   : "Babysec",
+                                "measure" : "unidades",
+                                "amount"  : 80,
+                                "price"   : 1200.0 
+                            }
+                        ],
+
+                        "detergente":[
+                            { 
+                                "type"    : "polvo Foam Plus",
+                                "brand"   : "Foam Plus",
+                                "measure" : "kg",
+                                "amount"  : 3,
+                                "price"   : 2646.0 
+                            },
+                            { 
+                                "type"    : "líquido Kapital",
+                                "brand"   : "Kapital",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 1050.0 
+                            }
+                        ],
+
+                        "pasta dental":[
+                            { 
+                                "brand"   : "Colgate Triple Acción",
+                                "measure" : "ml",
+                                "amount"  : 100,
+                                "price"   : 950.0 
+                            }
+                        ],
+
+                        "shampoo":[
+                            { 
+                                "brand"   : "Comfortime anticaspa",
+                                "measure" : "ml",
+                                "amount"  : 1000,
+                                "price"   : 3750.0 
+                            },
+                            { 
+                                "brand"   : "Comfortime anticaspa",
+                                "measure" : "ml",
+                                "amount"  : 500,
+                                "price"   : 2250.0 
+                            }
+                        ],
+
+                        "acondicionador":[
+                            { 
+                                "brand"   : "Pantene",
+                                "measure" : "ml",
+                                "amount"  : 400,
+                                "price"   : 2100.0 
+                            }
+                        ],
+
+                        "crema corporal":[
+                            { 
+                                "brand"   : "Coco",
+                                "measure" : "ml",
+                                "amount"  : 300,
+                                "price"   : 1260.0 
+                            }
+                        ],
+
+                        "pañales de adulto":[
+                            { 
+                                "brand"   : "Lindor fit",
+                                "measure" : "unidades",
+                                "amount"  : 20,
+                                "price"   : 3775.8 
+                            }
+                        ]
+                    }
+                }
+            ]          
+        }
+    },
+        {
+        "store": { "name": "Kaluch Market",
+                "location": { 
+                "lat": 23.136044,
+                "long": -82.407856
+            },
+            "products":[
+                {
+                    "groceries":{
+                        
+                        "cafe":[
+                            { 
+                                "brand"   : "Cafe Caribe",
+                                "measure" : "kg",
+                                "amount"  : 0.284,
+                                "price"   : 2200.0 
+                            },
+                            { 
+                                "brand"   : "Cafe Isla Grande",
+                                "measure" : "kg",
+                                "amount"  : 0.25,
+                                "price"   : 1800.0 
+                            },
+                            { 
+                                "brand"   : "Cafe La Llave",
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : 5240.0 
+                            },
+                            { 
+                                "brand"   : "Nescafé Clásico Soluble",
+                                "measure" : "kg",
+                                "amount"  : null,
+                                "price"   : 4950.0 
+                            }
+                        ],
+                        
+                        "arroz":[
+                            { 
+                                "brand"   : "Pelicano",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 900.0 
+                            }
+                        ],
+                        
+                        "pastas":[
+                            { 
+                                "brand"   : "Caracolino",
+                                "type"    : "pasta",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 415.0 
+                            },
+                            { 
+                                "brand"   : "Torti",
+                                "type"    : "pasta",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 415.0 
+                            },
+                            { 
+                                "brand"   : "Espagueti",
+                                "type"    : "pasta",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 415.0 
+                            },
+                            { 
+                                "brand"   : "Penne Rigate",
+                                "type"    : "pasta",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 415.0 
+                            },
+                            { 
+                                "brand"   : "Lasagna Mantias",
+                                "type"    : "pasta",
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : 1650.0 
+                            },
+                            { 
+                                "brand"   : "Mac & Cheese So Cheezy",
+                                "type"    : "pasta",
+                                "measure" : "g",
+                                "amount"  : 206,
+                                "price"   : 650.0 
+                            },
+                            { 
+                                "brand"   : "Galo Parafushino",
+                                "type"    : "pasta",
+                                "measure" : "kg",
+                                "amount"  : 0.5,
+                                "price"   : 415.0 
+                            }
+                        ],
+
+                        "pure de tomate":[
+                            { 
+                                "brand"   : "Tomate Frito Gourmet",
+                                "measure" : "kg",
+                                "amount"  : 0.39,
+                                "price"   : 800.0 
+                            },
+                            { 
+                                "brand"   : "Pasta de Tomate Silver Foods",
+                                "measure" : "kg",
+                                "amount"  : 0.4,
+                                "price"   : 520.0 
+                            },
+                            { 
+                                "brand"   : "Pasta de Tomate La Pasta",
+                                "measure" : "kg",
+                                "amount"  : 0.075,
+                                "price"   : 150.0 
+                            }
+                        ],
+
+                        "sal":[
+                            { 
+                                "brand"   : "Sal fina yodada",
+                                "measure" : "kg",
+                                "amount"  : 1,
+                                "price"   : 1000.0 
+                            }
+                        ],
+
+                        "azucar":[
+                            { 
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "avena":[
+                            { 
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ]
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            { 
+                                "type"    : "tocador",
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : 1,
+                                "price"   : 270.0 
+                            }
+                        ],
+                        
+                        "papel sanitario":[
+                            { 
+                                "brand"   : "Pañuelos Essential",
+                                "measure" : "unidades",
+                                "amount"  : 9,
+                                "price"   : 400.0 
+                            }
+                        ],
+
+                        "toallitas humedas":[
+                            { 
+                                "brand"   : "Renova",
+                                "measure" : "unidades",
+                                "amount"  : 20,
+                                "price"   : 700.0 
+                            }
+                        ],
+
+                        "detergente":[
+                            { 
+                                "type"    : "lavavajillas",
+                                "brand"   : "Kiriko",
+                                "measure" : "L",
+                                "amount"  : 1,
+                                "price"   : 2550.0 
+                            },
+                            { 
+                                "type"    : "ropa diario",
+                                "brand"   : null,
+                                "measure" : "L",
+                                "amount"  : 2,
+                                "price"   : 2900.0 
+                            },
+                            { 
+                                "type"    : "ropa oscuro",
+                                "brand"   : null,
+                                "measure" : "L",
+                                "amount"  : 2,
+                                "price"   : 2700.0 
+                            }
+                        ],
+
+                        "pasta dental":[
+                            { 
+                                "brand"   : "Licor Polo",
+                                "measure" : "ml",
+                                "amount"  : 75,
+                                "price"   : 2000.0 
+                            },
+                            { 
+                                "brand"   : "Astera Caries",
+                                "measure" : "g",
+                                "amount"  : 110,
+                                "price"   : 1100.0 
+                            },
+                            { 
+                                "brand"   : "Sensodyne",
+                                "measure" : "ml",
+                                "amount"  : 75,
+                                "price"   : 2100.0 
+                            },
+                            { 
+                                "brand"   : "S’nonas",
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : 1200.0 
+                            },
+                            { 
+                                "brand"   : "Close Up",
+                                "measure" : "g",
+                                "amount"  : 90,
+                                "price"   : 1300.0 
+                            },
+                            { 
+                                "brand"   : "Total Kisss",
+                                "measure" : "g",
+                                "amount"  : 125,
+                                "price"   : 1300.0 
+                            }
+                        ],
+
+                        "shampoo":[
+                            { 
+                                "brand"   : "Pantene",
+                                "measure" : "ml",
+                                "amount"  : 225,
+                                "price"   : 3100.0 
+                            },
+                            { 
+                                "brand"   : "Naturalis Cabello Normal",
+                                "measure" : "ml",
+                                "amount"  : null,
+                                "price"   : 800.0 
+                            },
+                            { 
+                                "brand"   : "Naturalis Cabello Rizo",
+                                "measure" : "ml",
+                                "amount"  : null,
+                                "price"   : 800.0 
+                            }
+                        ],
+
+                        "acondicionador":[
+                            { 
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "crema corporal":[
+                            { 
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ],
+
+                        "pañales de adulto":[
+                            { 
+                                "brand"   : null,
+                                "measure" : null,
+                                "amount"  : null,
+                                "price"   : null 
+                            }
+                        ]
+                    }
+                }
+            ]          
+        }
+    },
+        {
+            "store": { "name": "2KMarket",
+            
+            "location": { 
+                        "lat": "",
+                        "long":""},
+            "products":[
+                {
+                    "groceries":{
+                        
+                        "cafe":[
+                            
+                            {"brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""}
+                            ],
+                        
+                        "arroz":[
+                            
+                            {"brand": "Rainha",
+                            "measure":"kg",
+                            "amount": 1,
+                            "price": 700}
+                            ],
+                        
+                        "pastas":[
+                            
+                            {"brand": "Ada",
+                            "type": "coditos",
+                            "measure":"kg",
+                            "amount": 0.5,
+                            "price": 400},
+
+                            {"brand": "La Mia",
+                            "type": "espaguetis",
+                            "measure":"kg",
+                            "amount": 0.5,
+                            "price": 350}
+                        ],
+
+                        "pure de tomate":[
+                            
+                            {"brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price":""}
+                        ],
+
+                        "sal":[
+
+                            {"brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "azucar":[
+
+                            {"brand": "Energy",
+                            "measure":"kg",
+                            "amount": 1,
+                            "price": 750}
+                        ],
+
+                        "avena":[
+
+                            {"brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""}
+                        ]
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            
+                            {"type": "tocador ",
+                            "brand": "Deemah",
+                            "measure":"kg",
+                            "amount": 0.9,
+                            "price": 150},
+
+                            {"type": "lavar",
+                            "brand": "Reebay",
+                            "measure":"kg",
+                            "amount": 0.15,
+                            "price": 280}
+                        ],
+                        
+                        "papel sanitario":[
+                            
+                            {"brand": "La Excelencia",
+                            "measure":"rollos",
+                            "amount": 4,
+                            "price": 650}
+                        ],
+
+                        "toallitas humedas":[
+
+                            {"brand": "",
+                            "measure":"unidades",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "detergente":[
+                            
+                            {"type":"multiusos",
+                            "brand": "ArriXaca",
+                            "measure":"L",
+                            "amount": 1,
+                            "price": 1550},
+
+                            {"type":"lavavajillas",
+                            "brand": "Cleamax",
+                            "measure":"L",
+                            "amount": 0.75,
+                            "price": 1000}
+                        ],
+
+                        "desodorante":[
+
+                            {"brand": "",
+                            "measure":"",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "pasta dental":[
+
+                            {"brand": "Colgate",
+                            "measure":"kg",
+                            "amount": 0.14,
+                            "price": 800}
+                        ],
+
+                        "shampoo":[
+
+                            {"brand": "Nuky",
+                            "measure":"L",
+                            "amount": 0.75,
+                            "price": 1250}
+                        ],
+
+                        "acondicionador":[
+
+                            {"brand": "Nuky",
+                            "measure":"L",
+                            "amount": 0.75,
+                            "price": 1250}
+                        ],
+
+                        "crema corporal":[
+
+                            {"brand": "",
+                            "measure":"L",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "pañales de adulto":[
+
+                            {"brand": "Sleepy",
+                            "measure":"unidades",
+                            "amount": 14,
+                            "price": 3500}
+                        ]
+                    }
+                }
+            ]          
+        }
+    },
+        {
+            "store": { "name": "El Bodegon de 44",
+            
+            "location": { 
+                        "lat": "",
+                        "long":""},
+            "products":[
+                {
+                    "groceries":{
+                        
+                        "cafe":[
+                            
+                            {"brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""}
+                            ],
+                        
+                        "arroz":[
+                            
+                            {"brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""}
+                            ],
+                        
+                        "pastas":[
+                            
+                            {"brand": "",
+                            "type": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "pure de tomate":[
+                            
+                            {"brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price":""}
+                        ],
+
+                        "sal":[
+
+                            {"brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "azucar":[
+
+                            {"brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "avena":[
+
+                            {"brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""}
+                        ]
+                    },
+                    
+                    "hygiene":{
+                        
+                        "jabon":[
+                            
+                            {"type": "",
+                            "brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""}
+                        ],
+                        
+                        "papel sanitario":[
+                            
+                            {"brand": "",
+                            "measure":"rollos",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "toallitas humedas":[
+
+                            {"brand": "",
+                            "measure":"unidades",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "detergente":[
+                            
+                            {"type":"",
+                            "brand": "",
+                            "measure":"kg",
+                            "amount": "",
+                            "price": ""},
+
+                            {"type":"",
+                            "brand": "",
+                            "measure":"L",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "desodorante":[
+
+                            {"brand": "",
+                            "measure":"",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "pasta dental":[
+
+                            {"brand": "",
+                            "measure":"",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "shampoo":[
+
+                            {"brand": "",
+                            "measure":"L",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "acondicionador":[
+
+                            {"brand": "",
+                            "measure":"L",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "crema corporal":[
+
+                            {"brand": "",
+                            "measure":"L",
+                            "amount": "",
+                            "price": ""}
+                        ],
+
+                        "pañales de adulto":[
+
+                            {"brand": "",
+                            "measure":"unidades",
+                            "amount": "",
+                            "price": null}
+                        ]
+                    }
+                }
+            ]          
+        }
+    }
 
 
 
@@ -3411,8 +5519,36 @@
 
 
 
-]
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

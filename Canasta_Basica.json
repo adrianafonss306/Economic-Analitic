@@ -1,0 +1,109 @@
+{
+    "Canasta Basica":{
+        
+        "arroz":[
+            {"measure":"kg",
+            "amount": 7}
+            ],
+
+        "azucar":[
+            {"measure":"kg",
+            "amount": 3}
+            ],
+
+        "sal":[
+            {"measure":"kg",
+            "amount": 1.0}
+            ],
+
+        "cafe":[
+            {"measure":"kg",
+            "amount": 0.25}
+            ],
+
+        "pastas":[
+            {"measure":"kg",
+            "amount": 0.5}
+            ],
+
+        "pure de tomate":[
+            {"measure":"kg",
+            "amount": 0.5}
+            ],
+
+        "jabon":[                            
+            {"type": "tocador",
+            "measure":"kg",
+            "amount": 0.09},
+
+            {"type": "lavar",
+            "measure":"kg",
+            "amount": 0.2}
+        ],
+        
+        "papel sanitario":[
+            
+            {"measure":"rollos",
+            "amount": 4}
+        ],
+
+        "detergente":[
+            
+            {"measure":"kg",
+            "amount": 1},
+
+            {"measure":"L",
+            "amount": 1}
+        ],
+
+        "desodorante":[
+
+            {"measure":"L",
+            "amount": 0.09}
+        ],
+
+        "pasta dental":[
+
+            {"measure":"kg",
+            "amount": 0.15}
+        ]
+},
+
+    "Canasta Adicional":{
+    
+        "avena":[
+            {"measure":"kg",
+            "amount": 0.5}
+            ],
+
+        "shampoo":[
+
+            {"measure":"L",
+            "amount": 0.7}
+        ],
+
+        "acondicionador":[
+
+            {"measure":"L",
+            "amount": 0.7}
+        ],
+
+        "crema corporal":[
+
+            {"measure":"L",
+            "amount": 0.5}
+        ],
+
+        "pañales de adulto":[
+
+            {"measure":"unidades",
+            "amount": 20}
+        ],
+
+        "toallitas humedas":[
+
+            {"measure":"unidades",
+            "amount": 80}
+        ]
+    }
+}
