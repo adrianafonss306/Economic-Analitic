@@ -58,7 +58,7 @@ def name_products():#nombre de los productos analizados
 
 """----------------------------------------------------------------------"""
 
-def name_products_amount(): #cantidadde productos por categoria en cada mipyme
+def name_products_amount(): #cantidad de productos por categoria en cada mipyme
     data = open_json()
         
     mipymes = data["mipymes"]    
@@ -72,7 +72,7 @@ def name_products_amount(): #cantidadde productos por categoria en cada mipyme
 
 """----------------------------------------------------------------------"""
 
-def category_prices():
+def category_prices(): #todos los precios de cada producto analizado (para luego hallar promedio)
     data = open_json()
 
     list_prices = {}
@@ -104,7 +104,7 @@ def category_prices():
                         list_prices[j].append(k["price"])
                     
     return list_prices
-
+print(category_prices())
 """----------------------------------------------------------------------"""
 
 def process_products_food(): #procesar precios de los productos de comida
@@ -181,7 +181,7 @@ def dict_average_bath():#precio promedio de productos de aseo
 
 """----------------------------------------------------------------------"""
 
-def dict_average_all():#precio promedio pero de todos los productos
+def dict_average_all():#precio promedio pero de todos los productos combinados
     prices_food = process_products_food()
     prices_bath = process_products_bath()
     
@@ -201,7 +201,7 @@ def average(list):#promedio de una lista
     
 """----------------------------------------------------------------------"""
 
-def available_diapers():
+def available_diapers(): 
     data = open_json()
     yes = 0
     no = 0
@@ -226,6 +226,8 @@ def available_diapers():
 def percent(a,b): #convertir en porciento
     p=a*100/b
     return p
+
+#no lo use al final
 
 """----------------------------------------------------------------------"""
 
