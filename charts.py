@@ -91,13 +91,15 @@ def Chart_Analiced_Products():
 
     plt.figure(figsize=(12, 6))
     bars = plt.bar(products, prices)
+    plt.bar_label(bars, labels=[f"{p:.0f}" for p in prices], padding=3)
     plt.title("Productos Analizados")
     plt.ylabel("Precio Promedio (CUP)")
     plt.xticks(rotation=40, ha='right')
     plt.grid(axis='y', linestyle='-', alpha=0.5)
 
     plt.tight_layout()
-    plt.show()
+    plt.show()  
+    
     
 """----------------------------------------------------------------------"""
 
@@ -138,6 +140,29 @@ def Chart_Diaper_Availability():
             colors=["green","red"], autopct='%1.1f%%')
 
     plt.title('Disponibilidad de pañales de adulto en Mipymes')
+    plt.show()
+
+"""----------------------------------------------------------------------"""
+
+def Chart_Max_Salary_VS_Basket():
+    price_basic = price_basic_basket()
+    price_aditional = price_aditional_basket()
+
+    salario_max_antes = 2650
+    salario_max_despues = 4000
+
+    categorias = ["Canasta básica", "Canasta adicional"]
+    valores = [price_basic, price_aditional]
+
+    plt.figure(figsize=(8,6))
+
+    plt.bar(categorias, valores, color=["skyblue", "lightgreen"])
+    plt.axhline(y=salario_max_antes, color="tomato", linestyle="--", linewidth=2, label="Salario máximo antes")
+    plt.axhline(y=salario_max_despues, color="seagreen", linestyle="--", linewidth=2, label="Salario máximo después")
+
+    plt.title("Comparación de canastas vs salario máximo de jubilados")
+    plt.ylabel("CUP")
+    plt.legend()
     plt.show()
 
 """----------------------------------------------------------------------"""

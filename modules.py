@@ -12,7 +12,7 @@ def open_json():#abrir json
 
 def open_json_canasta():#abrir json
     import json
-    with open ("./Canasta_Basica.json","r",encoding="utf-8") as file:
+    with open ("./canasta.json","r",encoding="utf-8") as file:
         data=json.load(file)
         
         return data
@@ -230,4 +230,69 @@ def percent(a,b): #convertir en porciento
 
 """----------------------------------------------------------------------"""
 
+def price_basic_basket(): #precio de la canasta basica 
+    basket = open_json_canasta()
+    prices = dict_average_all()
+    total = 0
 
+    for product, items in basket["Canasta Basica"].items(): 
+        for item in items: 
+            if product in prices: 
+                total += item["amount"] * prices[product] 
+    return total
+
+"""----------------------------------------------------------------------"""
+
+def price_aditional_basket(): #precio de la canasta adicional
+    basket = open_json_canasta()
+    prices = dict_average_all()
+    total = 0
+
+    for product, items in basket["Canasta Adicional"].items(): 
+        for item in items: 
+            if product in prices: 
+                total += item["amount"] * prices[product] 
+    return total
+
+"""----------------------------------------------------------------------"""
+
+def price_total_basket(): #precio total de la canasta basica y adicional
+    basket = open_json_canasta()
+    prices = dict_average_all()
+    total = 0
+
+    for type, products in basket.items():
+        for product, items in products.items():
+            for item in items:
+                if product in prices:
+                    total += item["amount"]*prices[product]
+    return total
+
+"""----------------------------------------------------------------------"""
+
+def mediana(lista): #para obtener la mediana de una lista
+    n = len(lista)
+    lista_ordenada = sorted(lista)
+    if n % 2 == 1:
+        return lista_ordenada[n // 2]
+    else:
+        centro1 = lista_ordenada[n // 2 - 1]
+        centro2 = lista_ordenada[n // 2]
+        return (centro1 + centro2) / 2
+
+"""----------------------------------------------------------------------"""
+
+def moda(lista): #para obtener la moda de una lista
+    frecuencias = {}
+    for num in lista:
+        frecuencias[num] = frecuencias.get(num, 0) + 1
+    
+    max_frecuencia = max(frecuencias.values())
+    modas = [num for num, freq in frecuencias.items() if freq == max_frecuencia]
+    
+    if len(modas) == 1:
+        return modas[0]
+    else:
+        return modas
+
+"""----------------------------------------------------------------------"""

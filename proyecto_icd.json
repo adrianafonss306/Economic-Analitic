@@ -5228,8 +5228,8 @@
             "store": { "name": "Bodegon Calzada y A",
             
             "location": { 
-                        "lat": null,
-                        "long":null},
+                        "lat": 23.139098,
+                        "long":-82.399279},
             "products":[
                 {
                     "groceries":{
@@ -5401,8 +5401,8 @@
             "store": { "name": "Mercados Rocio",
             
             "location": { 
-                        "lat": "",
-                        "long":""},
+                        "lat": 23.138547,
+                        "long":-82.399938},
             "products":[
                 {
                     "groceries":{
@@ -5557,171 +5557,7 @@
                 }
             ]          
         }
-    },
-        {
-            "store": { "name": "Bodegn D44",
-            
-            "location": { 
-                        "lat": "",
-                        "long":""},
-            "products":[
-                {
-                    "groceries":{
-                        
-                        "cafe":[
-                            
-                            {"brand": "Isla Grande",
-                            "measure":"kg",
-                            "amount": 0.25,
-                            "price": 1500}
-                            ],
-                        
-                        "arroz":[
-                            
-                            {"brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
-                            ],
-                        
-                        "pastas":[
-                            
-                            {"brand": "",
-                            "type": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
-                        ],
-
-                        "pure de tomate":[
-                            
-                            {"brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price":""}
-                        ],
-
-                        "sal":[
-
-                            {"brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
-                        ],
-
-                        "azucar":[
-
-                            {"brand": "Qbanito",
-                            "measure":"kg",
-                            "amount": 1,
-                            "price": 850}
-                        ],
-
-                        "avena":[
-
-                            {"brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
-                        ]
-                    },
-                    
-                    "hygiene":{
-                        
-                        "jabon":[
-                            
-                            {"type": "",
-                            "brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""}
-                        ],
-                        
-                        "papel sanitario":[
-                            
-                            {"brand": "",
-                            "measure":"rollos",
-                            "amount": "",
-                            "price": ""}
-                        ],
-
-                        "toallitas humedas":[
-
-                            {"brand": "",
-                            "measure":"unidades",
-                            "amount": "",
-                            "price": ""}
-                        ],
-
-                        "detergente":[
-                            
-                            {"type":"",
-                            "brand": "",
-                            "measure":"kg",
-                            "amount": "",
-                            "price": ""},
-
-                            {"type":"",
-                            "brand": "",
-                            "measure":"L",
-                            "amount": "",
-                            "price": ""}
-                        ],
-
-                        "desodorante":[
-
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
-                        ],
-
-                        "pasta dental":[
-
-                            {"brand": "",
-                            "measure":"",
-                            "amount": "",
-                            "price": ""}
-                        ],
-
-                        "shampoo":[
-
-                            {"brand": "",
-                            "measure":"L",
-                            "amount": "",
-                            "price": ""}
-                        ],
-
-                        "acondicionador":[
-
-                            {"brand": "",
-                            "measure":"L",
-                            "amount": "",
-                            "price": ""}
-                        ],
-
-                        "crema corporal":[
-
-                            {"brand": "",
-                            "measure":"L",
-                            "amount": "",
-                            "price": ""}
-                        ],
-
-                        "pañales de adulto":[
-
-                            {"brand": "",
-                            "measure":"unidades",
-                            "amount": "",
-                            "price": ""}
-                        ]
-                    }
-                }
-            ]          
-        }
     }
-
-
 
 
 
