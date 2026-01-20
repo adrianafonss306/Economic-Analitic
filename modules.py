@@ -272,13 +272,13 @@ def price_total_basket(): #precio total de la canasta basica y adicional
 
 def mediana(lista): #para obtener la mediana de una lista
     n = len(lista)
-    lista_ordenada = sorted(lista)
+    sorted_list = sorted(lista)
     if n % 2 == 1:
-        return lista_ordenada[n // 2]
+        return sorted_list[n // 2]
     else:
-        centro1 = lista_ordenada[n // 2 - 1]
-        centro2 = lista_ordenada[n // 2]
-        return (centro1 + centro2) / 2
+        center1 = sorted_list[n // 2 - 1]
+        center2 = sorted_list[n // 2]
+        return (center1 + center2) / 2
 
 """----------------------------------------------------------------------"""
 

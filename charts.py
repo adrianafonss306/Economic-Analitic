@@ -90,7 +90,7 @@ def Chart_Analiced_Products():
     prices = list(dict_average_food().values()) + list(dict_average_bath().values())
 
     plt.figure(figsize=(12, 6))
-    bars = plt.bar(products, prices)
+    bars = plt.bar(products, prices,color = "purple")
     plt.bar_label(bars, labels=[f"{p:.0f}" for p in prices], padding=3)
     plt.title("Productos Analizados")
     plt.ylabel("Precio Promedio (CUP)")
