@@ -19,7 +19,6 @@ def open_json_canasta():#abrir json
     
 """----------------------------------------------------------------------"""
 
-
 def mipyme_name(): #nombre de las mipymes analizadas
     data = open_json()
     
@@ -104,7 +103,7 @@ def category_prices(): #todos los precios de cada producto analizado (para luego
                         list_prices[j].append(k["price"])
                     
     return list_prices
-print(category_prices())
+
 """----------------------------------------------------------------------"""
 
 def process_products_food(): #procesar precios de los productos de comida
@@ -201,7 +200,7 @@ def average(list):#promedio de una lista
     
 """----------------------------------------------------------------------"""
 
-def available_diapers(): 
+def available_diapers(): #disponibilidad del producto pañales de adulto en mipymes
     data = open_json()
     yes = 0
     no = 0
