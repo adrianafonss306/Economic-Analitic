@@ -91,7 +91,13 @@ def Chart_Analiced_Products():
 
     plt.figure(figsize=(12, 6))
     bars = plt.bar(products, prices,color = "purple")
-    plt.bar_label(bars, labels=[f"{p:.0f}" for p in prices], padding=3)
+    
+    labels = [] 
+    for p in prices: 
+        labels.append(f"{p:.0f}") 
+    
+    plt.bar_label(bars, labels=labels, padding=3)
+    
     plt.title("Productos Analizados")
     plt.ylabel("Precio Promedio (CUP)")
     plt.xticks(rotation=40, ha='right')
@@ -133,7 +139,11 @@ def Chart_Diaper_Availability():
     labels = ['Tienen', 'No tienen']
     counts = [6, 20]  
     total = 30
-    percentages = [(x / total) * 100 for x in counts]
+    percentages = [] 
+    
+    for x in counts: 
+        percentages.append((x / total) * 100)
+        
     plt.figure(figsize=(6,6))
 
     plt.pie(percentages, labels=labels,

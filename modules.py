@@ -270,29 +270,3 @@ def price_total_basket(): #precio total de la canasta basica y adicional
 
 """----------------------------------------------------------------------"""
 
-def mediana(lista): #para obtener la mediana de una lista
-    n = len(lista)
-    sorted_list = sorted(lista)
-    if n % 2 == 1:
-        return sorted_list[n // 2]
-    else:
-        center1 = sorted_list[n // 2 - 1]
-        center2 = sorted_list[n // 2]
-        return (center1 + center2) / 2
-
-"""----------------------------------------------------------------------"""
-
-def moda(lista): #para obtener la moda de una lista
-    frecuencias = {}
-    for num in lista:
-        frecuencias[num] = frecuencias.get(num, 0) + 1
-    
-    max_frecuencia = max(frecuencias.values())
-    modas = [num for num, freq in frecuencias.items() if freq == max_frecuencia]
-    
-    if len(modas) == 1:
-        return modas[0]
-    else:
-        return modas
-
-"""----------------------------------------------------------------------"""
