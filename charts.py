@@ -137,7 +137,8 @@ def Chart_Average_VS_Salary():
 
 def Chart_Diaper_Availability():
     labels = ['Tienen', 'No tienen']
-    counts = [6, 20]  
+    x=available_diapers()
+    counts = [x["tienen"],x["no tienen"]]  
     total = 30
     percentages = [] 
     

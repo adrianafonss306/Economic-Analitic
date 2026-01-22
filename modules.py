@@ -42,15 +42,15 @@ def name_products():#nombre de los productos analizados
     empty = []
     mipymes = data["mipymes"]
     
-    for mipyme in range(len(mipymes)):
+    for mipyme in range(len(mipymes)): #entra en el diccionario con comida y aseo y los separa
         products_food=mipymes[mipyme]["store"]["products"][0]["groceries"]         
-        
-        for j in products_food:
-            if j not in empty:
-                empty.append(j)
         products_bath=mipymes[mipyme]["store"]["products"][0]["hygiene"]
         
-        for k in products_bath:  
+        
+        for j in products_food:#incluye el nombre de los productos a la lista
+            if j not in empty:
+                empty.append(j)
+        for k in products_bath:#Idem
             if k not in empty:
                 empty.append(k)
     return empty    
@@ -222,14 +222,6 @@ def available_diapers(): #disponibilidad del producto pañales de adulto en mipy
     
 """----------------------------------------------------------------------"""
 
-def percent(a,b): #convertir en porciento
-    p=a*100/b
-    return p
-
-#no lo use al final
-
-"""----------------------------------------------------------------------"""
-
 def price_basic_basket(): #precio de la canasta basica 
     basket = open_json_canasta()
     prices = dict_average_all()
@@ -261,12 +253,11 @@ def price_total_basket(): #precio total de la canasta basica y adicional
     prices = dict_average_all()
     total = 0
 
-    for type, products in basket.items():
-        for product, items in products.items():
-            for item in items:
+    for type, products in basket.items():#entra en el diccionario 
+        for product, items in products.items():#entra en el nombre y las categorias de cada canasta
+            for item in items:#entra en el diccionario de las categorias
                 if product in prices:
-                    total += item["amount"]*prices[product]
-    return total
+                    total += item["amount"]*prices[product] #nultiplica la cantidad de producto por el precio promedio del mismo
+        return total
 
 """----------------------------------------------------------------------"""
-

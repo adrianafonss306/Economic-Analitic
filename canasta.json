@@ -97,13 +97,13 @@
         "pañales de adulto":[
 
             {"measure":"unidades",
-            "amount": 20}
+            "amount": 1}
         ],
 
         "toallitas humedas":[
 
             {"measure":"unidades",
-            "amount": 80}
+            "amount": 1}
         ]
     }
 }
